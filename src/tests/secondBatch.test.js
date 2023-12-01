@@ -16,7 +16,7 @@ test('compiling android goes as expected', () => {
 })
 
 async function fetchData() {
-  return 'Error'
+  return 'peanut butter'
 }
 
 test('the data is peanut butter', async () => {
