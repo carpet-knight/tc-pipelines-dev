@@ -55,9 +55,9 @@ object PipelineHead : BuildType({
     features {
         feature {
             type = "pipeline"
-            param("dslVersion", "2")
+            param("dslVersion", "3")
             param("dsl", """
-                name: TC Pipelines Getting Started
+                name: TC Pipelines Getting Started Internal
                 jobs:
                   Job1:
                     name: Job 1
